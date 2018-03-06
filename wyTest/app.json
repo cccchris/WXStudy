@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/homelist/homelist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#BBDEF8",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#48c33c",
+    "borderStyle": "block",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/homelist/homelist",
+        "iconPath": "images/客户未选中icon拷贝@2x",
+        "selectedIconPath": "images/客户选中icon@2x",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/homelist/homelist",
+        "iconPath": "images/客户未选中icon拷贝@2x",
+        "selectedIconPath": "images/客户选中icon@2x",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/homelist/homelist",
+        "iconPath": "images/客户未选中icon拷贝@2x",
+        "selectedIconPath": "images/客户选中icon@2x",
+        "text": "主程序"
+      }
+    ]
+  }
+}
