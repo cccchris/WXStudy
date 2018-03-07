@@ -1,0 +1,11 @@
+<!--pages/find/find.wxml-->
+
+<block wx:for="{{testData.data}}" wx:key="{{testData.data}}">
+<view class='title'>{{item.title}}</view>
+<view class='content'>
+  <text>{{item.content}}</text>
+  <text bindtap='moreMsg' class='morebtn'>查看更多</text>
+</view>
+<view class='line'></view>
+
+</block>

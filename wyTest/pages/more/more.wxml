@@ -1,0 +1,13 @@
+<!--pages/more/more.wxml-->
+<view class="item-row"> 
+  <image class='leftImage' src="../images/图层15@2x.png"></image>
+  <text class="content">{{testData.title1}}</text>
+  <image class='right' src="../images/@2x.png"></image>
+</view>
+<view class='line'></view>
+<view class="item-row"> 
+  <image class='left-Image' src="../images/图层16@2x.png"></image>
+  <text class="content">{{testData.title2}}</text>
+  <image class='right' src="../images/@2x.png"></image>
+</view>
+<view class='line'></view>

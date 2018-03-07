@@ -1,0 +1,49 @@
+/* pages/more/more.wxss */
+.item-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: bisque;
+   height: 55px;
+}
+.line {
+  background: gainsboro;
+  height: 5px;
+}
+
+.item-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: bisque;
+  height: 50px;
+}
+
+.content {
+  margin-left: 10px;
+  color: black;
+  size: 20px;
+  font: 20px;
+  align-content: center;
+}
+
+.leftImage {
+    margin-left: 20px;
+    width: 23px;
+    height: 31px;
+}
+
+.left-Image {
+    margin-left: 20px;
+    width: 23px;
+    height: 23px;
+}
+
+.right {
+  align-items: flex-end;
+  width: 14px;
+  height: 16px;
+   /* // 设置居右   */
+  position: fixed;
+  right: 20px;
+}

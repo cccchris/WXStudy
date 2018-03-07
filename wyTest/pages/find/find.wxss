@@ -1,0 +1,26 @@
+/* pages/find/find.wxss */
+.line {
+  background: gainsboro;
+  height: 5px;
+}
+
+.title {
+  margin-left: 10px;
+  color: black;
+  size: 20px;
+  font: 20px;
+  align-content: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.morebtn {
+  margin-left: 10px;
+  color: blue;
+}

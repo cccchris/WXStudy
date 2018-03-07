@@ -3,7 +3,11 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/home/home",
-    "pages/homelist/homelist"
+    "pages/homelist/homelist",
+    "pages/thread/thread",
+    "pages/more/more",
+    "pages/customer/customer",
+    "pages/find/find"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,7 +15,6 @@
     "navigationBarTitleText": "Demo",
     "navigationBarTextStyle": "black"
   },
-
   "tabBar": {
     "color": "#000",
     "selectedColor": "#48c33c",
@@ -19,22 +22,28 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/homelist/homelist",
-        "iconPath": "images/客户未选中icon拷贝@2x",
-        "selectedIconPath": "images/客户选中icon@2x",
-        "text": "首页"
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/images/线索未选中icon拷贝@2x.png",
+        "selectedIconPath": "pages/images/线索选中icon拷贝@2x.png",
+        "text": "线索"
       },
       {
-        "pagePath": "pages/homelist/homelist",
-        "iconPath": "images/客户未选中icon拷贝@2x",
-        "selectedIconPath": "images/客户选中icon@2x",
-        "text": "日志"
+        "pagePath": "pages/customer/customer",
+        "iconPath": "pages/images/客户未选中icon拷贝@2x.png",
+        "selectedIconPath": "pages/images/客户选中icon@2x.png",
+        "text": "客户"
       },
       {
-        "pagePath": "pages/homelist/homelist",
-        "iconPath": "images/客户未选中icon拷贝@2x",
-        "selectedIconPath": "images/客户选中icon@2x",
-        "text": "主程序"
+        "pagePath": "pages/find/find",
+        "iconPath": "pages/images/发现未选中icon拷贝@2x.png",
+        "selectedIconPath": "pages/images/发现选中@2x.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "iconPath": "pages/images/@2x.png",
+        "selectedIconPath": "pages/images/@2x.png",
+        "text": "更多"
       }
     ]
   }

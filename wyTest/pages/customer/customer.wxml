@@ -1,0 +1,10 @@
+<!--pages/customer/customer.wxml-->
+<block wx:for="{{testData.data}}" wx:key="{{testData.data}}">
+  <view class='item'>
+  <text class='title-content'>{{item.title}}</text>
+  <text class='name'>1111111</text>
+  <text class='content'>1111111</text>
+  </view>
+  <view class='line'></view>
+
+</block>
